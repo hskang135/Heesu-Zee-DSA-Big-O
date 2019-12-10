@@ -1,0 +1,64 @@
+#1 - 1
+Constant time 0(1)
+No matter number of people in the room, you only have to yell once. 
+
+#1 - 2
+Linear time 0(n)
+Limit amount of people I can ask in the room.
+
+#2
+
+function isEven(value) {
+    if (value % 2 == 0) {
+        return true;
+    }
+    else
+        return false;
+    }
+}
+
+Constant time 0(1)
+No matter input, it only goes through 1 operation.
+
+#3
+
+function areYouHere(arr1, arr2) {
+    for (let i = 0; i < arr1.length; i++) {
+        const el1 = arr1[i];
+        for (let j = 0; j < arr2.length; j++) {
+            const el2 = arr2[j];
+            if (el1 === el2) return true;
+        }
+    }
+    return false;
+}
+
+Polynomial time O(n^k)
+Nested 2 level of for loops which exponentally increases time to complete.
+
+#4
+
+function doubleArrayValues(array) {
+    for (let i = 0; i < array.length; i++) {
+        array[i] *= 2;
+    }
+    return array;
+}
+
+Linear time 0(n)
+Time it take is preportinal to size of array.
+
+#5
+
+function naiveSearch(array, item) {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === item) {
+            return i;
+        }
+    }
+}
+
+Linear time 0(n)
+Iterate through entire array once to find correct item.
+
+
