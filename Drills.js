@@ -43,7 +43,7 @@ function trianglar(n) {
 //Big 0:
 
 // 5
-function splitString(str, seperate) {
+function splitString(str) {
   let result = [];
   let newString = '';
   for(let i=0; i<=str.length; i++) {
