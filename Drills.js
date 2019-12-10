@@ -52,7 +52,7 @@ function reverseString(str) {
   }
   return reverse;
 }
-//console.log(reverseString('seed'));
+//console.log(reverseString('roftshjhw'));
 //Big O: Linear 0(n)
 
 // 4
