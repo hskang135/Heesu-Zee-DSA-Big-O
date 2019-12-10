@@ -36,7 +36,7 @@ push no results.  If the index is equal to 2 if will push the first result.
 Or push the results of the array minus 2 location on the index.  Then it will 
 return the result.
 
-This is logarithmic complexity (O(log(n)) run time because it goes
+This is linear O(n) run time because it goes
 through several rounds of the code cutting the code each time.
 
 #8 - An efficient search
@@ -64,7 +64,7 @@ function efficientSearch(array, item) {
     return -1;
 }
 
-The Big O here is O(n) because the array though sorted, is the same array.
+The Big O here is (O(log(n)) because the array though sorted, is the same array.
 
 #9 - Random element
 
