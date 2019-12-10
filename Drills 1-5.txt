@@ -33,7 +33,7 @@ function areYouHere(arr1, arr2) {
     return false;
 }
 
-Polynomial time O(n^k)
+Polynomial time O(n^k) => O(n^2)
 Nested 2 level of for loops which exponentally increases time to complete.
 
 #4
