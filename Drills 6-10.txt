@@ -11,8 +11,6 @@ function createPairs(arr) {
 The Big O here is 0(n^2) because there is a nested loop that would
 require 2 levels of looping over an input
 
-
-
 #7 - Compute the sequence
 
 function compute(num) {
@@ -41,7 +39,7 @@ return the result.
 This is logarithmic complexity (O(log(n)) run time because it goes
 through several rounds of the code cutting the code each time.
 
-#8 An efficient search
+#8 - An efficient search
 
 function efficientSearch(array, item) {
     let minIndex = 0;
@@ -90,4 +88,5 @@ function isWhat(n) {
 }
 
 The Big O here would be linear O(n)
+
 
