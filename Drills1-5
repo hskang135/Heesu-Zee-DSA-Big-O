@@ -1,0 +1,25 @@
+#1 - 1
+Constant time 0(1)
+No matter number of people in the room, you only have to yell once. 
+
+#1 - 2
+Linear time 0(n)
+Limit amount of people I can ask in the room.
+
+#2
+Constant time 0(1)
+No matter input, it only goes through 1 operation.
+
+#3
+Polynomial time O(n^k)
+Nested 2 level of for loops which exponentally increases time to complete.
+
+#4
+Linear time 0(n)
+Time it take is preportinal to size of array.
+
+#5
+Linear time 0(n)
+Iterate through entire array once to find correct item.
+
+
